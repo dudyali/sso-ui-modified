@@ -1,0 +1,19 @@
+{
+    "name": "dudyali/sso-ui-modified",
+    "description": "Modified version from ristekoss/sso",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dudy Ali",
+            "email": "dudyali@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "jasig/phpcas": "*"
+    },
+    "autoload": {
+        "psr-0": { "SSO": "."}
+    }
+}
